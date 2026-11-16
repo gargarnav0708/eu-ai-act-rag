@@ -1,0 +1,12 @@
+[
+  {"question": "What does Article 4 require concerning AI literacy?", "relevant_articles": ["4"]},
+  {"question": "Which AI practices are prohibited by the EU AI Act?", "relevant_articles": ["5"]},
+  {"question": "What are the rules for classifying an AI system as high-risk?", "relevant_articles": ["6"]},
+  {"question": "What does the risk management system for high-risk AI systems need to do?", "relevant_articles": ["9"]},
+  {"question": "What does the Act require about data and data governance for high-risk AI systems?", "relevant_articles": ["10"]},
+  {"question": "What information and transparency must be provided for high-risk AI systems?", "relevant_articles": ["13"]},
+  {"question": "What are deployers required to do when using a high-risk AI system?", "relevant_articles": ["26"]},
+  {"question": "What transparency duties apply when people interact with AI or synthetic content?", "relevant_articles": ["50"]},
+  {"question": "What are providers of general-purpose AI models required to do?", "relevant_articles": ["53"]},
+  {"question": "When can a person seek an explanation of an individual decision based on a high-risk AI system?", "relevant_articles": ["86"]}
+]

@@ -1,0 +1,18 @@
+# EU AI Act RAG Assistant dependencies
+# Python 3.11 or 3.12 recommended.
+# On a CUDA machine, install a PyTorch build matching your CUDA environment if needed.
+pymupdf>=1.24.0
+python-dotenv>=1.0.1
+langchain-core>=0.3.0,<2.0.0
+langchain-text-splitters>=0.3.0,<2.0.0
+langchain-huggingface>=0.1.0
+langchain-chroma>=0.2.0
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
+huggingface-hub>=0.25.0
+transformers>=4.45.0
+accelerate>=1.0.0
+safetensors>=0.4.5
+torch>=2.4.0
+bitsandbytes>=0.45.0

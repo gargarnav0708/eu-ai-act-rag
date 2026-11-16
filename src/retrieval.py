@@ -90,7 +90,11 @@ class HybridRetriever:
     def bm25_search(self, query: str, k: int = BM25_CANDIDATES) -> list[Document]:
         if not query.strip():
             return []
-        scores = self.bm25.get_scores(tokenize(query))
+        tokens = tokenize(query)
+        if not tokens or not any(token in self.bm25.idf for token in tokens):
+            return []
+
+        scores = self.bm25.get_scores(tokens)
         top_indices = sorted(range(len(scores)), key=lambda idx: scores[idx], reverse=True)[:k]
         return [self.chunks[idx] for idx in top_indices]
 

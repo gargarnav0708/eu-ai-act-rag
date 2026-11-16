@@ -41,7 +41,7 @@ def load_llm():
         model_id,
         quantization_config=quant_config,
         device_map="auto",
-        torch_dtype=compute_dtype,
+        dtype=compute_dtype,
         low_cpu_mem_usage=True,
     )
     model.eval()
